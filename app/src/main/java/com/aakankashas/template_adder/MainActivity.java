@@ -1,10 +1,9 @@
-package com.example.template_adder;
+package com.aakankashas.template_adder;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.graphics.pdf.PdfDocument;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
@@ -12,15 +11,12 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
-import com.chaquo.python.PyException;
 import com.chaquo.python.PyObject;
 import com.chaquo.python.Python;
 import com.chaquo.python.android.AndroidPlatform;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-import java.io.OutputStream;
 
 public class MainActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.example.template_adder;
+package com.aakankashas.template_adder;
 
 import org.junit.Test;
 
